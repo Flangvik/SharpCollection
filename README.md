@@ -36,6 +36,8 @@ https://github.com/rasta-mouse/Watson
 
 https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite (long for winPEAS)
 
+https://github.com/GhostPack/Rubeus
+
 
 
 
