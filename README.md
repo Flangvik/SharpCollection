@@ -43,5 +43,6 @@ Links for all these amazing tools are below :)
 * [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) - Fork of SafetyKatz dynamically fetches the latest Mimikatz, runtime patching signatures and PE loads Mimikatz into memory. @Flangvik
 * [SharpHound3](https://github.com/BloodHoundAD/SharpHound3) - C# Rewrite of the BloodHound Ingestor. @BloodHoundAD
 * [Snaffler](https://github.com/SnaffCon/Snaffler) - C# tool for pentesters to help find delicious candy needles (creds mostly, but it's flexible). @SnaffCon
+* [SearchOutlook](https://github.com/RedLectroid/SearchOutlook) - C# tool to search through a running instance of Outlook for keywords @RedLectroid
 
 
