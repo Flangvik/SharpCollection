@@ -2,10 +2,18 @@
 Nightly builds of common C# offensive tools, fresh from their respective master branches built and released in a CDI fashion using Azure DevOps release pipelines. 
 
 Is your favorite tool missing? Feel free to open an issue or DM me on twitter [@Flangvik](https://twitter.com/Flangvik)
-# Builds
+
+# Azure DevOps? 
+Each night at 03:00 AM, the Azure DevOps pipeline checks for new commits to all repositories master branch. Branches with changes will be automatically fetched and compiled with different framework targets as well as architectures, before being pushed to this repo. 
+
+The pipeline can be found here:
+https://dev.azure.com/FlangvikDev/SharpRelease
+
+# Available builds
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpDump | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | LockLess | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | Seatbelt | :heavy_check_mark: | :heavy_check_mark: |  :x: |
@@ -19,13 +27,13 @@ Is your favorite tool missing? Feel free to open an issue or DM me on twitter [@
 | SharpTask | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpDir | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpReg | :heavy_check_mark: | :heavy_check_mark: |  :x: |
-| SharpSvc | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpSvc | :x: | :x: |  :heavy_check_mark: |
 | Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | Watson | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | winPEAS | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpStay | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpFiles | :heavy_check_mark: | :heavy_check_mark: |  :x: |
-| SharpHose | :heavy_check_mark: | :heavy_check_mark: |  :x: |
+| SharpHose | :x: | :heavy_check_mark: |  :x: |
 | SharpDoor | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | WMIReg | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | scout | :heavy_check_mark: | :heavy_check_mark: |  :x: |
@@ -36,18 +44,12 @@ Is your favorite tool missing? Feel free to open an issue or DM me on twitter [@
 | SharpChisel | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | BetterSafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :x: |
-| SharpHound3 | :heavy_check_mark: | :heavy_check_mark: |  :x: |
-| Snaffler | :heavy_check_mark: | :heavy_check_mark: |  :x: |
+| SharpHound3 | :x: | :heavy_check_mark: |  :x: |
+| Snaffler | :heavy_check_mark: | x: |  :x: |
 | SearchOutlook | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :x: |
-| ADSearch | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| ADSearch | :x: | :x: |  :heavy_check_mark: |
 
-
-# Azure DevOps? 
-Each night at 03:00 AM, the Azure DevOps pipeline checks for new commits to all repositories master branch. Branches with changes will be automatically fetched and compiled with different framework targets as well as architectures, before being pushed to this repo. 
-
-The pipeline can be found here:
-https://dev.azure.com/FlangvikDev/SharpRelease
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
@@ -87,4 +89,5 @@ Links for all these amazing tools are below :)
 * [SearchOutlook](https://github.com/RedLectroid/SearchOutlook) - C# tool to search through a running instance of Outlook for keywords @RedLectroid
 * [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump) - C# tool to Create a minidump of the LSASS process from memory  @b4rtik
 * [ADSearch](https://github.com/tomcarver16/ADSearch) - C# tool to help query AD via the LDAP protocol @tomcarver16 (Only NET 4.7)
+* [ADCollector](https://github.com/dev-2null/ADCollector) - C# tool to quickly extract valuable information from the Active Directory environment @dev-2null
 
