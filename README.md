@@ -49,6 +49,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SearchOutlook | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | ADSearch | :x: | :x: |  :heavy_check_mark: |
+| AtYourService | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 
 
 # Sources / Credits
@@ -90,4 +91,5 @@ Links for all these amazing tools are below :)
 * [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump) - C# tool to Create a minidump of the LSASS process from memory  @b4rtik
 * [ADSearch](https://github.com/tomcarver16/ADSearch) - C# tool to help query AD via the LDAP protocol @tomcarver16 (Only NET 4.7)
 * [ADCollector](https://github.com/dev-2null/ADCollector) - C# tool to quickly extract valuable information from the Active Directory environment @dev-2null
+* [AtYourService](https://github.com/mitchmoser/AtYourService) - C# .NET Assembly for Service Enumeration @mitchmoser
 
