@@ -50,11 +50,12 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | ADSearch | :x: | :x: |  :heavy_check_mark: |
 | AtYourService | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-
+| SqlClient | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
 
+* [SqlClient](https://github.com/FortyNorthSecurity/SqlClient) - C# .NET mssql client for accessing database data through beacon. @FortyNorthSecurity
 * [SharpDump](https://github.com/GhostPack/SharpDump) - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality. @GhostPack
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
 * [Seatbelt](https://github.com/GhostPack/Seatbelt) - Performs a number of security oriented host-survey "safety checks". @GhostPack
