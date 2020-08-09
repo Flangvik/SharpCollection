@@ -40,7 +40,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpBlock | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpCloud | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpGPOAbuse | :heavy_check_mark: | :heavy_check_mark: |  :x: |
-| PurpleSharp | :heavy_check_mark: | :heavy_check_mark: |  :x: |
+| PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpChisel | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | BetterSafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :x: |
