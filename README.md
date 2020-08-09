@@ -30,7 +30,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpSvc | :x: | :x: |  :heavy_check_mark: |
 | Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | Watson | :heavy_check_mark: | :heavy_check_mark: |  :x: |
-| winPEAS | :heavy_check_mark: | :heavy_check_mark: |  :x: |
+| winPEAS | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpStay | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpFiles | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | SharpHose | :x: | :heavy_check_mark: |  :x: |
