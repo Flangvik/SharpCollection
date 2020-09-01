@@ -14,6 +14,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
 | ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :x: |
+| SharpAppLocker | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpDump | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | LockLess | :heavy_check_mark: | :heavy_check_mark: |  :x: |
 | Seatbelt | :heavy_check_mark: | :heavy_check_mark: |  :x: |
@@ -54,7 +55,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
-
+* [SharpAppLocker](https://github.com/Flangvik/SharpAppLocker) - C# port of the Get-AppLockerPolicy PS cmdlet with extended features @Flangvik
 * [SqlClient](https://github.com/FortyNorthSecurity/SqlClient) - C# .NET mssql client for accessing database data through beacon. @FortyNorthSecurity
 * [SharpDump](https://github.com/GhostPack/SharpDump) - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality. @GhostPack
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
