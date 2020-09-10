@@ -45,7 +45,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpChisel | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | BetterSafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpHound3 | :x: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpHound3 | :x: | :heavy_check_mark: |  :x: |
 | Snaffler | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | SearchOutlook | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
