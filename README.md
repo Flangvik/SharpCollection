@@ -13,6 +13,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpAppLocker | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpDump | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
@@ -58,6 +59,7 @@ Links for all these amazing tools are below :)
 * [SharpAppLocker](https://github.com/Flangvik/SharpAppLocker) - C# port of the Get-AppLockerPolicy PS cmdlet with extended features @Flangvik
 * [SqlClient](https://github.com/FortyNorthSecurity/SqlClient) - C# .NET mssql client for accessing database data through beacon. @FortyNorthSecurity
 * [SharpDump](https://github.com/GhostPack/SharpDump) - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality. @GhostPack
+* [SharpView](https://github.com/tevora-threat/SharpView) - C# implementation of harmj0y's PowerView. @tevora-threat
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
 * [Seatbelt](https://github.com/GhostPack/Seatbelt) - Performs a number of security oriented host-survey "safety checks". @GhostPack
 * [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) -  C# port of some Mimikatz DPAPI functionality. @GhostPack
