@@ -14,6 +14,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
 | SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| SweetPotato | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpAppLocker | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpDump | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
@@ -83,6 +84,7 @@ Links for all these amazing tools are below :)
 * [WMIReg](https://github.com/airzero24/WMIReg) - C# PoC to interact with local/remote registry hives through WMI. @airzero24
 * [scout](https://github.com/jaredhaight/scout) - A .NET assembly for performing recon against hosts on a network . @jaredhaight
 * [SharpBlock](https://github.com/CCob/SharpBlock) - A method of bypassing EDR's active projection DLL's by preventing entry point exection. @CCob
+* [SweetPotato](https://github.com/CCob/SweetPotato) - Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019 . @CCob
 * [SharpCloud](https://github.com/chrismaddalena/SharpCloud) - Simple C# for checking for the existence of credential files related to AWS, Microsoft Azure, and Google Compute. @chrismaddalena
 * [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) - SharpGPOAbuse is a .NET application written in C# that can be used to take advantage of a user's edit rights on a Group Policy Object (GPO). @FSecureLABS
 * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) - C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments. @mvelazc0
