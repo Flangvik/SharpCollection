@@ -13,8 +13,8 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
-| SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
-| StickyNotesExtract | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark: |
+| StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SweetPotato | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
