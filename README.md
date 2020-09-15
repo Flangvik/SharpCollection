@@ -15,7 +15,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | --------------- | --------------- | --------------- | --------------- |
 | StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | ThunderFox |:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SweetPotato | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
