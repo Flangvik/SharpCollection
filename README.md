@@ -13,6 +13,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| SharpChromium | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | ThunderFox |:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
