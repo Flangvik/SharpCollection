@@ -24,6 +24,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | LockLess | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Seatbelt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpDPAPI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpChrome | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpUp | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Rubeus | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpWMI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -60,6 +61,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
+* [SharpChromium](https://github.com/djhohnstein/SharpChromium) -  C# Project to retrieve Chromium data, such as cookies, history and saved logins. @djhohnstein
 * [SharpRDP](https://github.com/0xthirteen/SharpRDP) - C# Remote Desktop Protocol Console Application for Authenticated Command Execution @0xthirteen
 * [StickyNotesExtract](https://github.com/V1V1/SharpScribbles) - C# tool that extracts data from the Windows Sticky Notes database. @V1V1 
 * [ThunderFox](https://github.com/V1V1/SharpScribbles) - C# Retrieves data (contacts, emails, history, cookies and credentials) from Thunderbird and Firefox. @V1V1 
@@ -70,6 +72,7 @@ Links for all these amazing tools are below :)
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
 * [Seatbelt](https://github.com/GhostPack/Seatbelt) - Performs a number of security oriented host-survey "safety checks". @GhostPack
 * [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) -  C# port of some Mimikatz DPAPI functionality. @GhostPack
+* [SharpChrome](https://github.com/GhostPack/SharpDPAPI) - Chrome-specific implementation of SharpDPAPI capable of cookies and logins decryption/triage. @GhostPack
 * [SharpUp](https://github.com/GhostPack/SharpUp) -  C# port of various PowerUp functionality. @GhostPack
 * [Rubeus](https://github.com/GhostPack/Rubeus) -  C# toolset for raw Kerberos interaction and abuses. @GhostPack
 * [SharpWMI](https://github.com/GhostPack/SharpWMI) -   C# implementation of various WMI functionality. @GhostPack
