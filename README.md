@@ -13,6 +13,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpChromium | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | ThunderFox |:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -62,6 +63,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
+* [SharpZeroLogon](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon) -  C# port of CVE-2020-1472 , a.k.a. Zerologon. @buffaloverflow
 * [SharpChromium](https://github.com/djhohnstein/SharpChromium) -  C# Project to retrieve Chromium data, such as cookies, history and saved logins. @djhohnstein
 * [SharpRDP](https://github.com/0xthirteen/SharpRDP) - C# Remote Desktop Protocol Console Application for Authenticated Command Execution @0xthirteen
 * [StickyNotesExtract](https://github.com/V1V1/SharpScribbles) - C# tool that extracts data from the Windows Sticky Notes database. @V1V1 
