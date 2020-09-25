@@ -1,7 +1,7 @@
 # SharpCollection
 Nightly builds of common C# offensive tools, fresh from their respective master branches built and released in a CDI fashion using Azure DevOps release pipelines. 
 
-Is your favorite tool missing? Feel free to open an issue or DM me on twitter [@Flangvik](https://twitter.com/Flangvik)
+Is your favorite tool missing? Feel free to open an issue or DM me on twitter [@Flangvik](https://twitter.com/Flangvik)    
 **Please note that Cobalt Strike's execute-assembly only accepts binaries compiled with the "Any CPU" configuration.**
 
 # Azure DevOps? 
