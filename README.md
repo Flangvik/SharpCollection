@@ -14,6 +14,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| TruffleSnout | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpSecDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpCrashEventLog | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -67,6 +68,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
+* [TruffleSnout](https://github.com/dsnezhkov/TruffleSnout) -  C# based iterative AD discovery toolkit for offensive operators. @dsnezhkov
 * [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump) -  C# port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py @G0ldenGunSec
 * [SharpCrashEventLog](https://github.com/slyd0g/SharpCrashEventLog) -  C# port of LogServiceCrash @slyd0g @limbenjamin
 * [SharpKatz](https://github.com/b4rtik/SharpKatz) -  PURE C# port of significant MimiKatz functionality such as logonpasswords, dcsync, etc. @b4rtik
