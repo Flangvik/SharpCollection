@@ -21,6 +21,8 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SauronEye |  :x: | :x: |  :heavy_check_mark:|
 | SharpMove |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpAllowedToAct |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -80,6 +82,8 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
+* [Grouper2](https://github.com/l0ss/Grouper2) -  C# tool to help find security-related misconfigurations in Active Directory Group Policy. @mikeloss
+* [SauronEye](https://github.com/vivami/SauronEye) -  C# search tool find specific files containing specific keywords (.doc, .docx, .xls, .xlsx). @_vivami
 * [SharpMove](https://github.com/0xthirteen/SharpMove) -  C# tool for performing lateral movement techniques @0xthirteen
 * [SharpHandler](https://github.com/jfmaes/SharpHandler) -  C# tool for stealing/duping handles to LSASS @Jean_Maes_1994
 * [SharpMapExec](https://github.com/cube0x0/SharpMapExec) -  C# version of @byt3bl33d3r's tool CrackMapExec @cube0x0
