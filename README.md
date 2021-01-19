@@ -13,8 +13,8 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 # OpSec
 
 Should I blindly deploy any of these binaries during real-life engagements?    
-**F*ck no**, always look through anything that you deploy on a client machine or network. Eg https://github.com/dnSpy/dnSpy
-Deploying anything blindly from this repo should be reserved for Lab testing, HTB, detection mapping, and so forth. 
+**F*ck no**, always look through anything that you deploy on a client machine or network. Eg https://github.com/dnSpy/dnSpy   
+Deploying anything blindly from this repo should be reserved for Lab environment, VM's , HTB, detection mapping, and so forth. 
 
 
 # Available builds
