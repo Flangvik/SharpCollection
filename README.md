@@ -14,6 +14,8 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| SharpMove |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpAllowedToAct |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpMapExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | StandIn |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -71,6 +73,8 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
+* [SharpMove](https://github.com/0xthirteen/SharpMove) -  C# tool for performing lateral movement techniques @0xthirteen
+* [SharpHandler](https://github.com/jfmaes/SharpHandler) -  C# tool for stealing/duping handles to LSASS @jfmaes
 * [SharpMapExec](https://github.com/cube0x0/SharpMapExec) -  C# version of @byt3bl33d3r's tool CrackMapExec @cube0x0
 * [SharpAllowedToAct](https://github.com/pkb1s/SharpAllowedToAct) -  C# implementation of a computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity) @pkb1s
 * [SpoolSample](https://github.com/leechristensen/SpoolSample) -  C# PoC tool to coerce Windows hosts authenticate to other machines via the MS-RPRN RPC interface @leechristensen
