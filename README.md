@@ -21,7 +21,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
-| SharpSphere |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpSphere |  :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SauronEye |  :x: | :x: |  :heavy_check_mark:|
 | SharpMove |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
