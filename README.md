@@ -21,6 +21,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
+| Sharp-SMBExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpSphere |  :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SauronEye |  :x: | :x: |  :heavy_check_mark:|
@@ -83,6 +84,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
+* [Sharp-SMBExec](https://github.com/checkymander/Sharp-SMBExec) -  A native C# conversion of Kevin Robertsons Invoke-SMBExec powershell script @checkymander
 * [SharpSphere](https://github.com/JamesCooteUK/SharpSphere) -  C# SharpSphere has the ability to interact with the guest operating systems of virtual machines managed by vCenter. @jkcoote & @grzryc
 * [Grouper2](https://github.com/l0ss/Grouper2) -  C# tool to help find security-related misconfigurations in Active Directory Group Policy. @mikeloss
 * [SauronEye](https://github.com/vivami/SauronEye) -  C# search tool find specific files containing specific keywords (.doc, .docx, .xls, .xlsx). @_vivami
