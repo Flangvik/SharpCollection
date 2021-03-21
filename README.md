@@ -21,67 +21,67 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 
 | Tools \ .NET Framework | NET 4.0 |  NET 4.5 |  NET 4.7 |
 | --------------- | --------------- | --------------- | --------------- |
-| SharpLaps |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| Sharp-SMBExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpSphere |  :x: | :heavy_check_mark: |  :heavy_check_mark:|
-| Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SauronEye |  :x: | :x: |  :heavy_check_mark:|
-| SharpMove |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpAllowedToAct |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpMapExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| StandIn |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| TruffleSnout | :x: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpSecDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpCrashEventLog | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpChromium | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| ThunderFox |:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
-| SweetPotato | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| SharpAppLocker | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| SharpDump | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| LockLess | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Seatbelt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| SharpDPAPI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpChrome | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpUp | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| Rubeus | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpWMI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpShares | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| SharpSpray | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpTask | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| SharpDir | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpSvc | :x: | :x: |  :heavy_check_mark: |
-| Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| Watson | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| winPEAS | :x: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpStay | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpFiles | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpHose | :x: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpDoor | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| WMIReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| scout | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpBlock | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpCloud | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpGPOAbuse | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| SharpChisel | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-| BetterSafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpHound3 | :x: | :heavy_check_mark: |  :x: |
-| Snaffler | :heavy_check_mark: | :x: | :x: |
-| SearchOutlook | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | ADSearch | :x: | :x: |  :heavy_check_mark: |
 | AtYourService | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| BetterSafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| LockLess | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| Rubeus | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SauronEye |  :x: | :x: |  :heavy_check_mark:|
+| scout | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SearchOutlook | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| Seatbelt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Sharp-SMBExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpAllowedToAct |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpAppLocker | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpBlock | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpChisel | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpChrome | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpChromium | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpCloud | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpCrashEventLog | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpDir | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpDoor | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpDPAPI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpDump | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpFiles | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpGPOAbuse | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpHose | :x: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpHound3 | :x: | :heavy_check_mark: |  :x: |
+| SharpKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpLaps |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpMapExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpMove |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpSecDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpShares | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpSphere |  :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpSpray | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpStay | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpSvc | :x: | :x: |  :heavy_check_mark: |
+| SharpTask | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpUp | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpWMI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| Snaffler | :heavy_check_mark: | :x: | :x: |
 | SqlClient | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| StandIn |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SweetPotato | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| ThunderFox |:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| TruffleSnout | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| Watson | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| winPEAS | :x: | :heavy_check_mark: |  :heavy_check_mark: |
+| WMIReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 
 # Sources / Credits
 Links for all these amazing tools are below :) 
