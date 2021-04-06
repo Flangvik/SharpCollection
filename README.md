@@ -70,6 +70,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpUp | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpWMI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpWebServer | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Snaffler | :heavy_check_mark: | :x: | :x: |
@@ -126,16 +127,17 @@ title
 * [SharpMove](https://github.com/0xthirteen/SharpMove) -  C# tool for performing lateral movement techniques @0xthirteen
 * [SharpRDP](https://github.com/0xthirteen/SharpRDP) - C# Remote Desktop Protocol Console Application for Authenticated Command Execution @0xthirteen
 * [SharpReg](https://github.com/jnqpblc/SharpReg) - C# tool to interact with the Remote Registry service api. @jnqpblc
-* [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump) -  C# port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py @G0ldenGunSec
+* [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump) - C# port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py @G0ldenGunSec
 * [SharpShares](https://github.com/djhohnstein/SharpShares) - Enumerate all network shares in the current domain. @djhohnstein
-* [SharpSphere](https://github.com/JamesCooteUK/SharpSphere) -  C# SharpSphere has the ability to interact with the guest operating systems of virtual machines managed by vCenter. @jkcoote & @grzryc
+* [SharpSphere](https://github.com/JamesCooteUK/SharpSphere) - C# SharpSphere has the ability to interact with the guest operating systems of virtual machines managed by vCenter. @jkcoote & @grzryc
 * [SharpSpray](https://github.com/jnqpblc/SharpSpray) - C# tool to perform a password spraying attack against all users of a domain using LDAP. @jnqpblc
 * [SharpStay](https://github.com/0xthirteen/SharpStay) - .NET project for installing Persistence. @0xthirteen
 * [SharpSvc](https://github.com/jnqpblc/SharpSvc) - C# tool to interact with the SC Manager API. @jnqpblc (Only NET 4.7)
-* [SharpTask](https://github.com/jnqpblc/SharpTask) -  C# tool to interact with the Task Scheduler service api. @jnqpblc
-* [SharpUp](https://github.com/GhostPack/SharpUp) -  C# port of various PowerUp functionality. @GhostPack
+* [SharpTask](https://github.com/jnqpblc/SharpTask) - C# tool to interact with the Task Scheduler service api. @jnqpblc
+* [SharpUp](https://github.com/GhostPack/SharpUp) - C# port of various PowerUp functionality. @GhostPack
 * [SharpView](https://github.com/tevora-threat/SharpView) - C# implementation of harmj0y's PowerView. @tevora-threat
-* [SharpWMI](https://github.com/GhostPack/SharpWMI) -   C# implementation of various WMI functionality. @GhostPack
+* [SharpWMI](https://github.com/GhostPack/SharpWMI) -  C# implementation of various WMI functionality. @GhostPack
+* [SharpWebServer](https://github.com/mgeeky/SharpWebServer) - A Red Team oriented simple HTTP & WebDAV server written in C# with functionality to capture Net-NTLM hashes. @mariuszbit
 * [SharpZeroLogon](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon) -  C# port of CVE-2020-1472 , a.k.a. Zerologon. @buffaloverflow
 * [Shhmon](https://github.com/matterpreter/Shhmon) - Neutering Sysmon via driver unload. @Shhmon
 * [Snaffler](https://github.com/SnaffCon/Snaffler) - C# tool for pentesters to help find delicious candy needles (creds mostly, but it's flexible). @SnaffCon
