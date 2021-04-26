@@ -58,6 +58,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpMapExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpMove |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpNoPSExec |  :x: | :x: |  :heavy_check_mark:|
 | SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpSecDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -123,7 +124,8 @@ title
 * [SharpKatz](https://github.com/b4rtik/SharpKatz) -  PURE C# port of significant MimiKatz functionality such as logonpasswords, dcsync, etc. @b4rtik
 * [SharpLaps](https://github.com/swisskyrepo/SharpLAPS) - A C# tool to retrieve LAPS passwords from LDAP @pentest_swissky
 * [SharpMapExec](https://github.com/cube0x0/SharpMapExec) -  C# version of @byt3bl33d3r's tool CrackMapExec @cube0x0
-* [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump) - C# tool to Create a minidump of the LSASS process from memory  @b4rtik
+* [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump) - C# tool to Create a minidump of the LSASS process from memory @b4rtik
+* [SharpNoPSExec](https://github.com/juliourena/SharpNoPSExec) -  C# tool allowing file less command execution for lateral movement. @juliourena
 * [SharpMove](https://github.com/0xthirteen/SharpMove) -  C# tool for performing lateral movement techniques @0xthirteen
 * [SharpRDP](https://github.com/0xthirteen/SharpRDP) - C# Remote Desktop Protocol Console Application for Authenticated Command Execution @0xthirteen
 * [SharpReg](https://github.com/jnqpblc/SharpReg) - C# tool to interact with the Remote Registry service api. @jnqpblc
