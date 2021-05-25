@@ -23,6 +23,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | --------------- | --------------- | --------------- | --------------- |
 | ADCollector | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | ADSearch | :x: | :x: |  :heavy_check_mark: |
+| ADFSDump| :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | AtYourService | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | BetterSafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -39,15 +40,19 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpAllowedToAct |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpAppLocker | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpBlock | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpBypassUAC | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpChisel | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpChrome | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpChromium | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpCloud | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpCOM | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpCrashEventLog | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpDir | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpDoor | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpDPAPI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpDump | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpEDRChecker | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpExec | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpFiles | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpGPOAbuse | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -58,6 +63,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpMapExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpMove |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpPrinter |  :x: | :heavy_check_mark: |  :heavy_check_mark:| 
 | SharpNoPSExec |  :x: | :x: |  :heavy_check_mark:|
 | SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -67,11 +73,13 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpSpray | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpStay | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpSvc | :x: | :x: |  :heavy_check_mark: |
+| SharpSniper | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | 
 | SharpTask | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpUp | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpWMI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpWebServer | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpWifiGrabber  | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Snaffler | :heavy_check_mark: | :x: | :x: |
@@ -91,6 +99,7 @@ title
 @leechristensen
 * [ADCollector](https://github.com/dev-2null/ADCollector) - C# tool to quickly extract valuable information from the Active Directory environment @dev-2null
 * [ADSearch](https://github.com/tomcarver16/ADSearch) - C# tool to help query AD via the LDAP protocol @tomcarver16 (Only NET 4.7)
+* [ADFSDump](https://github.com/fireeye/ADFSDump) - A C# tool to dump all sorts of goodies from AD FS. @FireEye
 * [AtYourService](https://github.com/mitchmoser/AtYourService) - C# .NET Assembly for Service Enumeration @mitchmoser
 * [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) - Fork of SafetyKatz dynamically fetches the latest Mimikatz, runtime patching signatures and PE loads Mimikatz into memory. @Flangvik
 * [Grouper2](https://github.com/l0ss/Grouper2) -  C# tool to help find security-related misconfigurations in Active Directory Group Policy. @mikeloss
@@ -107,15 +116,19 @@ title
 * [SharpAllowedToAct](https://github.com/pkb1s/SharpAllowedToAct) -  C# implementation of a computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity) @pkb1s
 * [SharpAppLocker](https://github.com/Flangvik/SharpAppLocker) - C# port of the Get-AppLockerPolicy PS cmdlet with extended features @Flangvik
 * [SharpBlock](https://github.com/CCob/SharpBlock) - A method of bypassing EDR's active projection DLL's by preventing entry point exection. @CCob
+* [SharpBypassUAC](https://github.com/FatRodzianko/SharpBypassUAC) - C# tool for UAC bypasses @rodzianko
 * [SharpChisel](https://github.com/shantanu561993/SharpChisel) -  C# Chisel Wrapper. @shantanu561993
 * [SharpChrome](https://github.com/GhostPack/SharpDPAPI) - Chrome-specific implementation of SharpDPAPI capable of cookies and logins decryption/triage. @GhostPack
 * [SharpChromium](https://github.com/djhohnstein/SharpChromium) -  C# Project to retrieve Chromium data, such as cookies, history and saved logins. @djhohnstein
 * [SharpCloud](https://github.com/chrismaddalena/SharpCloud) - Simple C# for checking for the existence of credential files related to AWS, Microsoft Azure, and Google Compute. @chrismaddalena
 * [SharpCrashEventLog](https://github.com/slyd0g/SharpCrashEventLog) -  C# port of LogServiceCrash @slyd0g @limbenjamin
+* [SharpCOM](https://github.com/rvrsh3ll/SharpCOM) - C# port of Invoke-DCOM @424f424f
 * [SharpDir](https://github.com/jnqpblc/SharpDir) - C# tool to search both local and remote file systems for files. @jnqpblc
 * [SharpDoor](https://github.com/infosecn1nja/SharpDoor) - C# tool to allow multiple RDP (Remote Desktop) sessions by patching termsrv.dll file. @infosecn1nja
 * [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) -  C# port of some Mimikatz DPAPI functionality. @GhostPack
 * [SharpDump](https://github.com/GhostPack/SharpDump) - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality. @GhostPack
+* [SharpEDRChecker](https://github.com/PwnDexter/SharpEDRChecker) - C# tool to check for the presence of known defensive products such as AV's, EDR's and logging tools @PwnDexter
+* [SharpExec](https://github.com/anthemtotheego/SharpExec) - SharpExec is an offensive security C# tool designed to aid with lateral movement. @anthemtotheego
 * [SharpFiles](https://github.com/fullmetalcache/SharpFiles) - C# tool to search for files based on SharpShares output. @fullmetalcache
 * [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) - SharpGPOAbuse is a .NET application written in C# that can be used to take advantage of a user's edit rights on a Group Policy Object (GPO). @FSecureLABS
 * [SharpHandler](https://github.com/jfmaes/SharpHandler) -  C# tool for stealing/duping handles to LSASS @Jean_Maes_1994
@@ -127,6 +140,7 @@ title
 * [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump) - C# tool to Create a minidump of the LSASS process from memory @b4rtik
 * [SharpNoPSExec](https://github.com/juliourena/SharpNoPSExec) -  C# tool allowing file less command execution for lateral movement. @juliourena
 * [SharpMove](https://github.com/0xthirteen/SharpMove) -  C# tool for performing lateral movement techniques @0xthirteen
+* [SharpPrinter](https://github.com/rvrsh3ll/SharpPrinter) - C# tool for discovering Printers on an network @424f424f
 * [SharpRDP](https://github.com/0xthirteen/SharpRDP) - C# Remote Desktop Protocol Console Application for Authenticated Command Execution @0xthirteen
 * [SharpReg](https://github.com/jnqpblc/SharpReg) - C# tool to interact with the Remote Registry service api. @jnqpblc
 * [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump) - C# port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py @G0ldenGunSec
@@ -134,12 +148,15 @@ title
 * [SharpSphere](https://github.com/JamesCooteUK/SharpSphere) - C# SharpSphere has the ability to interact with the guest operating systems of virtual machines managed by vCenter. @jkcoote & @grzryc
 * [SharpSpray](https://github.com/jnqpblc/SharpSpray) - C# tool to perform a password spraying attack against all users of a domain using LDAP. @jnqpblc
 * [SharpStay](https://github.com/0xthirteen/SharpStay) - .NET project for installing Persistence. @0xthirteen
+* [SharpSearch](https://github.com/djhohnstein/SharpSearch) - C# Project to quickly filter through a file share for targeted files for desired information. @djhohnstein
 * [SharpSvc](https://github.com/jnqpblc/SharpSvc) - C# tool to interact with the SC Manager API. @jnqpblc (Only NET 4.7)
+* [SharpSniper](https://github.com/HunnicCyber/SharpSniper) - SharpSniper is a simple tool to find the IP address of these users so that you can target their box. @hunniccyber
 * [SharpTask](https://github.com/jnqpblc/SharpTask) - C# tool to interact with the Task Scheduler service api. @jnqpblc
 * [SharpUp](https://github.com/GhostPack/SharpUp) - C# port of various PowerUp functionality. @GhostPack
 * [SharpView](https://github.com/tevora-threat/SharpView) - C# implementation of harmj0y's PowerView. @tevora-threat
 * [SharpWMI](https://github.com/GhostPack/SharpWMI) -  C# implementation of various WMI functionality. @GhostPack
 * [SharpWebServer](https://github.com/mgeeky/SharpWebServer) - A Red Team oriented simple HTTP & WebDAV server written in C# with functionality to capture Net-NTLM hashes. @mariuszbit
+* [SharpWifiGrabber](https://github.com/r3nhat/SharpWifiGrabber) - Sharp Wifi Password Grabber retrieves in clear-text the Wi-Fi Passwords from all WLAN Profiles saved on a workstation. @r3n_hat
 * [SharpZeroLogon](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon) -  C# port of CVE-2020-1472 , a.k.a. Zerologon. @buffaloverflow
 * [Shhmon](https://github.com/matterpreter/Shhmon) - Neutering Sysmon via driver unload. @Shhmon
 * [Snaffler](https://github.com/SnaffCon/Snaffler) - C# tool for pentesters to help find delicious candy needles (creds mostly, but it's flexible). @SnaffCon
