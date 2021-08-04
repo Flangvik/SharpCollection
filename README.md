@@ -26,7 +26,8 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | ADSearch | :x: | :x: |  :heavy_check_mark: |
 | ADFSDump| :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | AtYourService | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| BetterSafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| EDD | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| DeployPrinterNightmare | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | DeployPrinterNightmare | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -104,6 +105,7 @@ title
 * [ADFSDump](https://github.com/fireeye/ADFSDump) - A C# tool to dump all sorts of goodies from AD FS. @FireEye
 * [AtYourService](https://github.com/mitchmoser/AtYourService) - C# .NET Assembly for Service Enumeration @mitchmoser
 * [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) - Fork of SafetyKatz dynamically fetches the latest Mimikatz, runtime patching signatures and PE loads Mimikatz into memory. @Flangvik
+* [EDD]( https://github.com/FortyNorthSecurity/EDD) - Enumerate Domain Data is designed to be similar to PowerView but in .NET @FortyNorthSecurity
 * [DeployPrinterNightmare]( https://github.com/Flangvik/DeployPrinterNightmare) - C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc @Flangvik
 * [Grouper2](https://github.com/l0ss/Grouper2) -  C# tool to help find security-related misconfigurations in Active Directory Group Policy. @mikeloss
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
