@@ -58,6 +58,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpDump | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpEDRChecker | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpExec | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharPersist | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpFiles | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpGPOAbuse | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -136,6 +137,7 @@ title
 * [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) -  C# port of some Mimikatz DPAPI functionality. @GhostPack
 * [SharpDump](https://github.com/GhostPack/SharpDump) - SharpDump is a C# port of PowerSploit's Out-Minidump.ps1 functionality. @GhostPack
 * [SharpEDRChecker](https://github.com/PwnDexter/SharpEDRChecker) - C# tool to check for the presence of known defensive products such as AV's, EDR's and logging tools @PwnDexter
+* [SharPersist] (https://github.com/fireeye/SharPersist) - C# persistence toolkit. 
 * [SharpExec](https://github.com/anthemtotheego/SharpExec) - SharpExec is an offensive security C# tool designed to aid with lateral movement. @anthemtotheego
 * [SharpFiles](https://github.com/fullmetalcache/SharpFiles) - C# tool to search for files based on SharpShares output. @fullmetalcache
 * [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) - SharpGPOAbuse is a .NET application written in C# that can be used to take advantage of a user's edit rights on a Group Policy Object (GPO). @FSecureLABS
