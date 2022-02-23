@@ -32,6 +32,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | ForgeCert | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | DeployPrinterNightmare | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| KrbRelay | :x: | :x: |  :heavy_check_mark:|
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | LockLess | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
@@ -63,7 +64,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpGPOAbuse | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpHose | :x: | :heavy_check_mark: |  :heavy_check_mark: |
-| SharpHound3 | :x: | :heavy_check_mark: |  :x: |
+| SharpHound | :x: | :x: |  :heavy_check_mark: |
 | SharpKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpLaps |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpMapExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -80,6 +81,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpStay | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpSvc | :x: | :x: |  :heavy_check_mark: |
 | SharpSniper | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | 
+| SharpSQLPwn | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | 
 | SharpTask | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpUp | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -94,6 +96,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SweetPotato | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | ThunderFox |:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | TruffleSnout | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| TokenStomp | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | Watson | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | winPEAS | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | WMIReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -113,6 +116,7 @@ title
 * [ForgeCert](https://github.com/GhostPack/ForgeCert) - uses a stolen CA certificate + private key to forge certificates for arbitrary users. @tifkin_ 
 * [DeployPrinterNightmare]( https://github.com/Flangvik/DeployPrinterNightmare) - C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc @Flangvik
 * [Grouper2](https://github.com/l0ss/Grouper2) -  C# tool to help find security-related misconfigurations in Active Directory Group Policy. @mikeloss
+* [KrbRelay](https://github.com/cube0x0/KrbRelay) - C# Framework for Kerberos relaying @cube0x0
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
 * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) - C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments. @mvelazc0
 * [Rubeus](https://github.com/GhostPack/Rubeus) -  C# toolset for raw Kerberos interaction and abuses. @GhostPack
@@ -161,6 +165,7 @@ title
 * [SharpSearch](https://github.com/djhohnstein/SharpSearch) - C# Project to quickly filter through a file share for targeted files for desired information. @djhohnstein
 * [SharpSvc](https://github.com/jnqpblc/SharpSvc) - C# tool to interact with the SC Manager API. @jnqpblc (Only NET 4.7)
 * [SharpSniper](https://github.com/HunnicCyber/SharpSniper) - SharpSniper is a simple tool to find the IP address of these users so that you can target their box. @hunniccyber
+* [SharpSQLPwn](https://github.com/lefayjey/SharpSQLPwn) - C# tool to identify and exploit weaknesses within MSSQL instances in Active Directory environments. @lefayjey
 * [SharpTask](https://github.com/jnqpblc/SharpTask) - C# tool to interact with the Task Scheduler service api. @jnqpblc
 * [SharpUp](https://github.com/GhostPack/SharpUp) - C# port of various PowerUp functionality. @GhostPack
 * [SharpView](https://github.com/tevora-threat/SharpView) - C# implementation of harmj0y's PowerView. @tevora-threat
@@ -175,6 +180,7 @@ title
 * [SweetPotato](https://github.com/CCob/SweetPotato) - Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019 . @CCob
 * [ThunderFox](https://github.com/V1V1/SharpScribbles) - C# Retrieves data (contacts, emails, history, cookies and credentials) from Thunderbird and Firefox. @V1V1 
 * [TruffleSnout](https://github.com/dsnezhkov/TruffleSnout) -  C# based iterative AD discovery toolkit for offensive operators. @dsnezhkov
+* [TokenStomp](https://github.com/MartinIngesen/TokenStomp) - C# implementation of the token privilege removal flaw discovered by @GabrielLandau / Elastic. @Mrtn9
 * [Watson](https://github.com/rasta-mouse/Watson) - Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities . @rasta-mouse
 * [winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) - PEASS - Privilege Escalation Awesome Scripts (winPEAS). @carlospolop
 * [WMIReg](https://github.com/airzero24/WMIReg) - C# PoC to interact with local/remote registry hives through WMI. @airzero24
