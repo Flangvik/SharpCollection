@@ -143,7 +143,7 @@ title
 * [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) - SharpGPOAbuse is a .NET application written in C# that can be used to take advantage of a user's edit rights on a Group Policy Object (GPO). @FSecureLABS
 * [SharpHandler](https://github.com/jfmaes/SharpHandler) -  C# tool for stealing/duping handles to LSASS @Jean_Maes_1994
 * [SharpHose](https://github.com/ustayready/SharpHose) - Asynchronous Password Spraying Tool in C# for Windows Environments . @ustayready
-* [SharpHound3](https://github.com/BloodHoundAD/SharpHound3) - C# Rewrite of the BloodHound Ingestor. @BloodHoundAD
+* [SharpHound](https://github.com/BloodHoundAD/SharpHound) - C# 2022 version of the BloodHound 4.x Ingestor. @BloodHoundAD
 * [SharpKatz](https://github.com/b4rtik/SharpKatz) -  PURE C# port of significant MimiKatz functionality such as logonpasswords, dcsync, etc. @b4rtik
 * [SharpLaps](https://github.com/swisskyrepo/SharpLAPS) - A C# tool to retrieve LAPS passwords from LDAP @pentest_swissky
 * [SharpMapExec](https://github.com/cube0x0/SharpMapExec) -  C# version of @byt3bl33d3r's tool CrackMapExec @cube0x0
