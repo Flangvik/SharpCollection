@@ -33,6 +33,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | DeployPrinterNightmare | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | KrbRelay | :x: | :x: |  :heavy_check_mark:|
+| KrbRelayUp | :x: | :x: |  :heavy_check_mark:|
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | LockLess | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
@@ -117,6 +118,7 @@ title
 * [DeployPrinterNightmare]( https://github.com/Flangvik/DeployPrinterNightmare) - C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc @Flangvik
 * [Grouper2](https://github.com/l0ss/Grouper2) -  C# tool to help find security-related misconfigurations in Active Directory Group Policy. @mikeloss
 * [KrbRelay](https://github.com/cube0x0/KrbRelay) - C# Framework for Kerberos relaying @cube0x0
+* [KrbRelayUp](https://github.com/Dec0ne/KrbRelayUp) - universal no-fix local privilege escalation in windows domain environments where LDAP signing is not enforced @dec0ne
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
 * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) - C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments. @mvelazc0
 * [Rubeus](https://github.com/GhostPack/Rubeus) -  C# toolset for raw Kerberos interaction and abuses. @GhostPack
