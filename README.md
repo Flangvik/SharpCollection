@@ -32,6 +32,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | ForgeCert | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | DeployPrinterNightmare | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Grouper2 |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| Group3r|  :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | KrbRelay | :x: | :x: |  :heavy_check_mark:|
 | KrbRelayUp | :x: | :x: |  :heavy_check_mark:|
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -75,6 +76,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpNoPSExec |  :x: | :x: |  :heavy_check_mark:|
 | SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpSCCM | :x: | :x: |  :heavy_check_mark:|
 | SharpSecDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpShares | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpSphere |  :x: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -117,6 +119,7 @@ title
 * [ForgeCert](https://github.com/GhostPack/ForgeCert) - uses a stolen CA certificate + private key to forge certificates for arbitrary users. @tifkin_ 
 * [DeployPrinterNightmare]( https://github.com/Flangvik/DeployPrinterNightmare) - C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc @Flangvik
 * [Grouper2](https://github.com/l0ss/Grouper2) -  C# tool to help find security-related misconfigurations in Active Directory Group Policy. @mikeloss
+* [Group3r](https://github.com/Group3r/Group3r) -  C# tool to find vulnerabilities in AD Group Policy, but do it better than Grouper2 did. @mikeloss
 * [KrbRelay](https://github.com/cube0x0/KrbRelay) - C# Framework for Kerberos relaying @cube0x0
 * [KrbRelayUp](https://github.com/Dec0ne/KrbRelayUp) - universal no-fix local privilege escalation in windows domain environments where LDAP signing is not enforced @dec0ne
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
@@ -160,6 +163,7 @@ title
 * [SharpRDP](https://github.com/0xthirteen/SharpRDP) - C# Remote Desktop Protocol Console Application for Authenticated Command Execution @0xthirteen
 * [SharpReg](https://github.com/jnqpblc/SharpReg) - C# tool to interact with the Remote Registry service api. @jnqpblc
 * [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump) - C# port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py @G0ldenGunSec
+* [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) - C# utility for interacting with SCCM @_Mayyhem
 * [SharpShares](https://github.com/djhohnstein/SharpShares) - Enumerate all network shares in the current domain. @djhohnstein
 * [SharpSphere](https://github.com/JamesCooteUK/SharpSphere) - C# SharpSphere has the ability to interact with the guest operating systems of virtual machines managed by vCenter. @jkcoote & @grzryc
 * [SharpSpray](https://github.com/jnqpblc/SharpSpray) - C# tool to perform a password spraying attack against all users of a domain using LDAP. @jnqpblc
