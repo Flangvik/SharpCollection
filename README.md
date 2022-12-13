@@ -37,6 +37,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | KrbRelayUp | :x: | :x: |  :heavy_check_mark:|
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | LockLess | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| PassTheCert | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | Rubeus | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -93,6 +94,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpWifiGrabber  | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| Snaffler | :x: |:heavy_check_mark:|:heavy_check_mark:|
 | SqlClient | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | StandIn |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -103,7 +105,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | Watson | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | winPEAS | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | WMIReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
-
+| Whisker | :x: | :x: |  :heavy_check_mark:|
 # Sources / Credits
 Links for all these amazing tools are below :) 
 title
@@ -123,6 +125,7 @@ title
 * [KrbRelay](https://github.com/cube0x0/KrbRelay) - C# Framework for Kerberos relaying @cube0x0
 * [KrbRelayUp](https://github.com/Dec0ne/KrbRelayUp) - universal no-fix local privilege escalation in windows domain environments where LDAP signing is not enforced @dec0ne
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
+* [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) - Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel. @AlmondOffSec
 * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) - C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments. @mvelazc0
 * [Rubeus](https://github.com/GhostPack/Rubeus) -  C# toolset for raw Kerberos interaction and abuses. @GhostPack
 * [SafetyKatz](https://github.com/GhostPack/SafetyKatz) - Combination of slightly modified version of @gentilkiwi's Mimikatz project and @subTee's .NET PE Loader.  @GhostPack
@@ -180,6 +183,7 @@ title
 * [SharpWifiGrabber](https://github.com/r3nhat/SharpWifiGrabber) - Sharp Wifi Password Grabber retrieves in clear-text the Wi-Fi Passwords from all WLAN Profiles saved on a workstation. @r3n_hat
 * [SharpZeroLogon](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon) -  C# port of CVE-2020-1472 , a.k.a. Zerologon. @buffaloverflow
 * [Shhmon](https://github.com/matterpreter/Shhmon) - Neutering Sysmon via driver unload. @Shhmon
+* [Snaffler](https://github.com/SnaffCon/Snaffler) - C# tool for pentesters to help find delicious candy. @l0ss and @Sh3r4
 * [SqlClient](https://github.com/FortyNorthSecurity/SqlClient) - C# .NET mssql client for accessing database data through beacon. @FortyNorthSecurity
 * [StandIn](https://github.com/FuzzySecurity/StandIn) -  C# based small AD post-compromise toolkit. @FuzzySec
 * [StickyNotesExtract](https://github.com/V1V1/SharpScribbles) - C# tool that extracts data from the Windows Sticky Notes database. @V1V1 
@@ -190,3 +194,4 @@ title
 * [Watson](https://github.com/rasta-mouse/Watson) - Enumerate missing KBs and suggest exploits for useful Privilege Escalation vulnerabilities . @rasta-mouse
 * [winPEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) - PEASS - Privilege Escalation Awesome Scripts (winPEAS). @carlospolop
 * [WMIReg](https://github.com/airzero24/WMIReg) - C# PoC to interact with local/remote registry hives through WMI. @airzero24
+* [Whisker](https://github.com/eladshamir/Whisker) - Whisker is a C# tool for taking over Active Directory user and computer accounts by manipulating their msDS-KeyCredentialLink attribute. @elad_shamir
