@@ -94,7 +94,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | SharpWifiGrabber  | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
-| Snaffler | :x: |:heavy_check_mark:|:heavy_check_mark:|
+| Snaffler | :x: |:heavy_check_mark:|:x:|
 | SqlClient | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | StandIn |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
