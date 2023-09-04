@@ -40,6 +40,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | PassTheCert | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | Rubeus | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| RunAs | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SafetyKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SauronEye |  :x: | :x: |  :heavy_check_mark:|
 | scout | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -128,6 +129,7 @@ title
 * [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) - Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel. @AlmondOffSec
 * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) - C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments. @mvelazc0
 * [Rubeus](https://github.com/GhostPack/Rubeus) -  C# toolset for raw Kerberos interaction and abuses. @GhostPack
+* [RunAs](https://github.com/antonioCoco/RunasCs) - Csharp and open version of windows builtin runas.exe. @splinter_code
 * [SafetyKatz](https://github.com/GhostPack/SafetyKatz) - Combination of slightly modified version of @gentilkiwi's Mimikatz project and @subTee's .NET PE Loader.  @GhostPack
 * [SauronEye](https://github.com/vivami/SauronEye) -  C# search tool find specific files containing specific keywords (.doc, .docx, .xls, .xlsx). @_vivami
 * [scout](https://github.com/jaredhaight/scout) - A .NET assembly for performing recon against hosts on a network . @jaredhaight
