@@ -107,6 +107,7 @@ Deploying anything blindly from this repo should be reserved for Lab environment
 | winPEAS | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | WMIReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | Whisker | :x: | :x: |  :heavy_check_mark:|
+| AssemblyHunter | :x: | :x: |  :heavy_check_mark:|
 # Sources / Credits
 Links for all these amazing tools are below :) 
 title
