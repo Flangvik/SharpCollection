@@ -4,17 +4,19 @@ Nightly builds of common C# offensive tools, fresh from their respective master 
 Is your favorite tool missing? Feel free to open an issue or DM me on twitter [@Flangvik](https://twitter.com/Flangvik)    
 **Please note that Cobalt Strike's execute-assembly only accepts binaries compiled with the "Any CPU" configuration.**
 
+# OpSec
+
+Should I blindly deploy any of these binaries during real-life engagements?    
+**F*ck no**, always look through anything that you deploy on a client machine or network. Eg https://github.com/dnSpy/dnSpy   
+**Deploying anything blindly from this repo should be reserved for Lab environments, VM's , HackTheBox, detection mapping, and so forth.**
+
 # Azure DevOps? 
 Each night at 03:00 AM, the Azure DevOps pipeline checks for new commits to all repositories master branch. Branches with changes will be automatically fetched and compiled with different framework targets as well as architectures, before being pushed to this repo. 
 
 The pipeline can be found here:
 https://dev.azure.com/FlangvikDev/SharpRelease
 
-# OpSec
 
-Should I blindly deploy any of these binaries during real-life engagements?    
-**F*ck no**, always look through anything that you deploy on a client machine or network. Eg https://github.com/dnSpy/dnSpy   
-Deploying anything blindly from this repo should be reserved for Lab environment, VM's , HTB, detection mapping, and so forth. 
 
 
 # Available builds
