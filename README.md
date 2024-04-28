@@ -39,6 +39,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | KrbRelayUp | :x: | :x: |  :heavy_check_mark:|
 | InveighZero | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | LockLess | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| Moriarty | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | PassTheCert | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | PurpleSharp | :x: | :heavy_check_mark: | :heavy_check_mark: |
 | Rubeus | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -128,6 +129,7 @@ title
 * [KrbRelay](https://github.com/cube0x0/KrbRelay) - C# Framework for Kerberos relaying @cube0x0
 * [KrbRelayUp](https://github.com/Dec0ne/KrbRelayUp) - universal no-fix local privilege escalation in windows domain environments where LDAP signing is not enforced @dec0ne
 * [LockLess](https://github.com/GhostPack/LockLess) - Allows for the copying of locked files. @GhostPack
+* [Moriarty](https://github.com/BC-SECURITY/Moriarty) - Enumerate missing KBs, detect various vulnerabilities, and suggest potential exploits for Privilege Escalation in Windows
 * [PassTheCert](https://github.com/AlmondOffSec/PassTheCert) - Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel. @AlmondOffSec
 * [PurpleSharp](https://github.com/mvelazc0/PurpleSharp) - C# adversary simulation tool that executes adversary techniques with the purpose of generating attack telemetry in monitored Windows environments. @mvelazc0
 * [Rubeus](https://github.com/GhostPack/Rubeus) -  C# toolset for raw Kerberos interaction and abuses. @GhostPack
