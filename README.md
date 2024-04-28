@@ -49,6 +49,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | scout | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SearchOutlook | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Seatbelt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| ShadowSpray |  :x: | :x: |  :heavy_check_mark:|
 | Sharp-SMBExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpAllowedToAct |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpAppLocker | :x: | :heavy_check_mark: | :heavy_check_mark: |
@@ -68,6 +69,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpExec | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharPersist | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpFiles | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpFinder | | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpGPOAbuse | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpHandler |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpHose | :x: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -91,6 +93,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpSniper | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | 
 | SharpSQLPwn | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: | 
 | SharpTask | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpTokenFinder |  :x: | :heavy_check_mark: |  :heavy_check_mark:| 
 | SharpUp | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | SharpView | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpWMI | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -139,6 +142,7 @@ title
 * [scout](https://github.com/jaredhaight/scout) - A .NET assembly for performing recon against hosts on a network . @jaredhaight
 * [SearchOutlook](https://github.com/RedLectroid/SearchOutlook) - C# tool to search through a running instance of Outlook for keywords @RedLectroid
 * [Seatbelt](https://github.com/GhostPack/Seatbelt) - Performs a number of security oriented host-survey "safety checks". @GhostPack
+* [ShadowSpray](https://github.com/Dec0ne/ShadowSpray) - A tool to spray Shadow Credentials across an entire domain in hopes of abusing long forgotten GenericWrite/GenericAll DACLs over other objects in the domain.
 * [Sharp-SMBExec](https://github.com/checkymander/Sharp-SMBExec) -  A native C# conversion of Kevin Robertsons Invoke-SMBExec powershell script @checkymander
 * [SharpAllowedToAct](https://github.com/pkb1s/SharpAllowedToAct) -  C# implementation of a computer object takeover through Resource-Based Constrained Delegation (msDS-AllowedToActOnBehalfOfOtherIdentity) @pkb1s
 * [SharpAppLocker](https://github.com/Flangvik/SharpAppLocker) - C# port of the Get-AppLockerPolicy PS cmdlet with extended features @Flangvik
@@ -158,6 +162,7 @@ title
 * [SharPersist](https://github.com/fireeye/SharPersist) - C# persistence toolkit. 
 * [SharpExec](https://github.com/anthemtotheego/SharpExec) - SharpExec is an offensive security C# tool designed to aid with lateral movement. @anthemtotheego
 * [SharpFiles](https://github.com/fullmetalcache/SharpFiles) - C# tool to search for files based on SharpShares output. @fullmetalcache
+* [SharpFinder](https://github.com/s0lst1c3/SharpFinder) - Searches for files matching specific criteria on readable shares within the domain
 * [SharpGPOAbuse](https://github.com/FSecureLABS/SharpGPOAbuse) - SharpGPOAbuse is a .NET application written in C# that can be used to take advantage of a user's edit rights on a Group Policy Object (GPO). @FSecureLABS
 * [SharpHandler](https://github.com/jfmaes/SharpHandler) -  C# tool for stealing/duping handles to LSASS @Jean_Maes_1994
 * [SharpHose](https://github.com/ustayready/SharpHose) - Asynchronous Password Spraying Tool in C# for Windows Environments . @ustayready
@@ -182,6 +187,7 @@ title
 * [SharpSniper](https://github.com/HunnicCyber/SharpSniper) - SharpSniper is a simple tool to find the IP address of these users so that you can target their box. @hunniccyber
 * [SharpSQLPwn](https://github.com/lefayjey/SharpSQLPwn) - C# tool to identify and exploit weaknesses within MSSQL instances in Active Directory environments. @lefayjey
 * [SharpTask](https://github.com/jnqpblc/SharpTask) - C# tool to interact with the Task Scheduler service api. @jnqpblc
+* [SharpTokenFinder](https://github.com/HuskyHacks/SharpTokenFinder) - C# implementation of TokenFinder. Steal M365 access tokens from Office Desktop apps
 * [SharpUp](https://github.com/GhostPack/SharpUp) - C# port of various PowerUp functionality. @GhostPack
 * [SharpView](https://github.com/tevora-threat/SharpView) - C# implementation of harmj0y's PowerView. @tevora-threat
 * [SharpWMI](https://github.com/GhostPack/SharpWMI) -  C# implementation of various WMI functionality. @GhostPack
