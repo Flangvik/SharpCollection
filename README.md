@@ -75,6 +75,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpHose | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpHound | :x: | :x: |  :heavy_check_mark: |
 | SharpKatz | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpKiller | :x: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpLaps |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpMapExec |  :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
@@ -168,6 +169,7 @@ title
 * [SharpHose](https://github.com/ustayready/SharpHose) - Asynchronous Password Spraying Tool in C# for Windows Environments . @ustayready
 * [SharpHound](https://github.com/BloodHoundAD/SharpHound) - C# 2022 version of the BloodHound 4.x Ingestor. @BloodHoundAD
 * [SharpKatz](https://github.com/b4rtik/SharpKatz) -  PURE C# port of significant MimiKatz functionality such as logonpasswords, dcsync, etc. @b4rtik
+* [SharpKiller](https://github.com/S1lkys/SharpKiller) - Lifetime AMSI bypass by @ZeroMemoryEx ported to .NET Framework 4.8 @S1lky_1337
 * [SharpLaps](https://github.com/swisskyrepo/SharpLAPS) - A C# tool to retrieve LAPS passwords from LDAP @pentest_swissky
 * [SharpMapExec](https://github.com/cube0x0/SharpMapExec) -  C# version of @byt3bl33d3r's tool CrackMapExec @cube0x0
 * [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump) - C# tool to Create a minidump of the LSASS process from memory @b4rtik
