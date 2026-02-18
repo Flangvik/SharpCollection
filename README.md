@@ -1,13 +1,13 @@
 # SharpCollection
 Nightly builds of common C# offensive tools, fresh from their respective master branches built and released in a CDI fashion using Azure DevOps release pipelines.
 
-Is your favorite tool missing? Feel free to open an issue or DM me on twitter [@Flangvik](https://twitter.com/Flangvik)
+Is your favorite tool missing? Feel free to open an issue or DM me on X [@Flangvik](https://x.com/Flangvik)
 **Please note that Cobalt Strike's execute-assembly only accepts binaries compiled with the "Any CPU" configuration.**
 
 # OpSec
 
 Should I blindly deploy any of these binaries during real-life engagements?
-**F*ck no**, always look through anything that you deploy on a client machine or network. Eg https://github.com/dnSpy/dnSpy
+**F*ck no**, always look through anything that you deploy on a client machine or network. Eg https://github.com/dnSpyEx/dnSpy
 **Deploying anything blindly from this repo should be reserved for Lab environments, VM's , HackTheBox, detection mapping, and so forth.**
 
 # Azure DevOps?
@@ -172,7 +172,7 @@ Links for all these amazing tools are below :)
 * [RunasCs](https://github.com/antonioCoco/RunasCs) - Csharp and open version of windows builtin runas.exe. @splinter_code
 * [SafetyKatz](https://github.com/GhostPack/SafetyKatz) - Combination of slightly modified version of @gentilkiwi's Mimikatz project and @subTee's .NET PE Loader.  @GhostPack
 * [SauronEye](https://github.com/vivami/SauronEye) -  C# search tool find specific files containing specific keywords (.doc, .docx, .xls, .xlsx). @_vivami
-* [Scout](https://github.com/jaredhaight/scout) - A .NET assembly for performing recon against hosts on a network . @jaredhaight
+* [Scout](https://github.com/jaredhaight/scout) - A .NET assembly for performing recon against hosts on a network . @jaredhaight (**Repo removed — binaries are outdated**)
 * [SearchOutlook](https://github.com/RedLectroid/SearchOutlook) - C# tool to search through a running instance of Outlook for keywords @RedLectroid
 * [Seatbelt](https://github.com/GhostPack/Seatbelt) - Performs a number of security oriented host-survey "safety checks". @GhostPack
 * [ShadowSpray](https://github.com/Dec0ne/ShadowSpray) - A tool to spray Shadow Credentials across an entire domain in hopes of abusing long forgotten GenericWrite/GenericAll DACLs over other objects in the domain.
