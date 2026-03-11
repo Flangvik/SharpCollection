@@ -58,6 +58,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SauronEye | :x: | :x: |  :heavy_check_mark:|
 | Scout `⁷` | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SearchOutlook | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
+| SharpSCOM `³` | :x: | :x: |  :heavy_check_mark: |
 | Seatbelt | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | ShadowSpray `³` | :x: | :x: |  :heavy_check_mark:|
 | Sharp-SMBExec | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -92,18 +93,22 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpMapExec | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpMiniDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpMove | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
+| SharpNamedPipePTH | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpNoPSExec | :x: | :x: |  :heavy_check_mark:|
 | SharpPrinter | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpRDP | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpReg | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpSCCM | :x: | :x: |  :heavy_check_mark:|
+| SharpSearch | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpSecDump | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpShares | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| SharpSMBSpray | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpSphere | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | SharpSpray | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpStay | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpSuccessor | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpSvc | :x: | :x: |  :heavy_check_mark: |
+| SharpSystemTriggers `⁸` | :warning: | :warning: |  :warning:|
 | SharpSniper | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpSQLPwn | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | SharpTask | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
@@ -117,10 +122,12 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 | SharpZeroLogon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | Shhmon | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | Snaffler | :x: |:heavy_check_mark:|:x:|
+| SpoolSample | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SqlClient | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | StandIn | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | StickyNotesExtract | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | SweetPotato | :x: | :heavy_check_mark: |  :heavy_check_mark:|
+| ThreatCheck | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
 | ThunderFox |:heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark: |
 | TruffleSnout | :x: | :heavy_check_mark: |  :heavy_check_mark:|
 | TokenStomp | :heavy_check_mark: | :heavy_check_mark: |  :heavy_check_mark:|
@@ -138,6 +145,7 @@ https://dev.azure.com/FlangvikDev/SharpRelease
 5. **SharpBlock** — Only builds NET 4.0 and NET 4.5; NET 4.7 steps are disabled. No AnyCPU builds (x64/x86 only)
 6. **SharpDoor** — Only publishes x64 binaries (compiled via PowerShell script)
 7. **Scout** — The original repository has been removed. Binaries included are outdated and no longer maintained
+8. **SharpSystemTriggers** — Pipeline is **paused**. Existing binaries may be outdated
 
 > **InveighZero** :warning: — Pipeline has all build steps **disabled** and is non-functional. Existing binaries in the repo are from previous builds.
 
@@ -207,6 +215,7 @@ Links for all these amazing tools are below :)
 * [SharpLaps](https://github.com/swisskyrepo/SharpLAPS) - A C# tool to retrieve LAPS passwords from LDAP @pentest_swissky
 * [SharpMapExec](https://github.com/cube0x0/SharpMapExec) -  C# version of @byt3bl33d3r's tool CrackMapExec @cube0x0
 * [SharpMiniDump](https://github.com/b4rtik/SharpMiniDump) - C# tool to Create a minidump of the LSASS process from memory @b4rtik
+* [SharpNamedPipePTH](https://github.com/S3cur3Th1sSh1t/SharpNamedPipePTH) - C# tool for Pass-the-Hash over Named Pipes. @S3cur3Th1sSh1t
 * [SharpNoPSExec](https://github.com/juliourena/SharpNoPSExec) -  C# tool allowing file less command execution for lateral movement. @juliourena
 * [SharpMove](https://github.com/0xthirteen/SharpMove) -  C# tool for performing lateral movement techniques @0xthirteen
 * [SharpPrinter](https://github.com/rvrsh3ll/SharpPrinter) - C# tool for discovering Printers on an network @424f424f
@@ -214,12 +223,16 @@ Links for all these amazing tools are below :)
 * [SharpReg](https://github.com/jnqpblc/SharpReg) - C# tool to interact with the Remote Registry service api. @jnqpblc
 * [SharpSecDump](https://github.com/G0ldenGunSec/SharpSecDump) - C# port of the remote SAM + LSA Secrets dumping functionality of impacket's secretsdump.py @G0ldenGunSec
 * [SharpSCCM](https://github.com/Mayyhem/SharpSCCM) - C# utility for interacting with SCCM @_Mayyhem
+* [SharpSCOM](https://github.com/breakfix/SharpSCOM) - C# tool for SCOM exploitation including agent takeover and lateral movement. @breakfix
+* [SharpSearch](https://github.com/djhohnstein/SharpSearch) - C# tool to search for files matching a pattern. @djhohnstein
+* [SharpSMBSpray](https://github.com/rvrsh3ll/SharpSMBSpray) - C# SMB password spraying tool. @424f424f
 * [SharpShares](https://github.com/djhohnstein/SharpShares) - Enumerate all network shares in the current domain. @djhohnstein
 * [SharpSphere](https://github.com/JamesCooteUK/SharpSphere) - C# SharpSphere has the ability to interact with the guest operating systems of virtual machines managed by vCenter. @jkcoote & @grzryc
 * [SharpSpray](https://github.com/jnqpblc/SharpSpray) - C# tool to perform a password spraying attack against all users of a domain using LDAP. @jnqpblc
 * [SharpStay](https://github.com/0xthirteen/SharpStay) - .NET project for installing Persistence. @0xthirteen
 * [SharpSuccessor](https://github.com/yourusername/SharpSuccessor) - C# tool for exploiting the BadSuccessor / dMSA privilege escalation vulnerability
 * [SharpSvc](https://github.com/jnqpblc/SharpSvc) - C# tool to interact with the SC Manager API. @jnqpblc (Only NET 4.7)
+* [SharpSystemTriggers](https://github.com/cube0x0/SharpSystemTriggers) - C# collection of remote authentication triggers for coercing Windows machines. @cube0x0
 * [SharpSniper](https://github.com/HunnicCyber/SharpSniper) - SharpSniper is a simple tool to find the IP address of these users so that you can target their box. @hunniccyber
 * [SharpSQLPwn](https://github.com/lefayjey/SharpSQLPwn) - C# tool to identify and exploit weaknesses within MSSQL instances in Active Directory environments. @lefayjey
 * [SharpTask](https://github.com/jnqpblc/SharpTask) - C# tool to interact with the Task Scheduler service api. @jnqpblc
@@ -232,11 +245,13 @@ Links for all these amazing tools are below :)
 * [SharpWSUS](https://github.com/nettitude/SharpWSUS) - C# tool for lateral movement through WSUS. @naborstudio
 * [SharpZeroLogon](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon) -  C# port of CVE-2020-1472 , a.k.a. Zerologon. @buffaloverflow
 * [Shhmon](https://github.com/matterpreter/Shhmon) - Neutering Sysmon via driver unload. @Shhmon
+* [SpoolSample](https://github.com/leechristensen/SpoolSample) - C# tool to coerce Windows hosts to authenticate to other machines via the MS-RPRN RPC interface. @tifkin_
 * [Snaffler](https://github.com/SnaffCon/Snaffler) - C# tool for pentesters to help find delicious candy. @l0ss and @Sh3r4
 * [SqlClient](https://github.com/FortyNorthSecurity/SqlClient) - C# .NET mssql client for accessing database data through beacon. @FortyNorthSecurity
 * [StandIn](https://github.com/FuzzySecurity/StandIn) -  C# based small AD post-compromise toolkit. @FuzzySec
 * [StickyNotesExtract](https://github.com/V1V1/SharpScribbles) - C# tool that extracts data from the Windows Sticky Notes database. @V1V1
 * [SweetPotato](https://github.com/CCob/SweetPotato) - Local Service to SYSTEM privilege escalation from Windows 7 to Windows 10 / Server 2019 . @CCob
+* [ThreatCheck](https://github.com/rasta-mouse/ThreatCheck) - C# tool to identify the bytes that Microsoft Defender / AMSI flags as malicious. @rasta-mouse
 * [ThunderFox](https://github.com/V1V1/SharpScribbles) - C# Retrieves data (contacts, emails, history, cookies and credentials) from Thunderbird and Firefox. @V1V1
 * [TruffleSnout](https://github.com/dsnezhkov/TruffleSnout) -  C# based iterative AD discovery toolkit for offensive operators. @dsnezhkov
 * [TokenStomp](https://github.com/MartinIngesen/TokenStomp) - C# implementation of the token privilege removal flaw discovered by @GabrielLandau / Elastic. @Mrtn9
