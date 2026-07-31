@@ -159,6 +159,7 @@ Links for all these amazing tools are below :)
 * [AtYourService](https://github.com/mitchmoser/AtYourService) - C# .NET Assembly for Service Enumeration @mitchmoser
 * [BadAssMacros](https://github.com/Flangvik/BadAssMacros) - C# based automated malicous macro generator @Flangvik
 * [BetterSafetyKatz](https://github.com/Flangvik/BetterSafetyKatz) - Fork of SafetyKatz dynamically fetches the latest Mimikatz, runtime patching signatures and PE loads Mimikatz into memory. @Flangvik
+* [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - an open source (GPL-3.0) autonomous AI penetration testing platform for web, API, Active Directory and Kubernetes.
 * [Certify](https://github.com/GhostPack/Certify) - C# tool to enumerate and abuse misconfigurations in Active Directory Certificate Services (AD CS). @harmj0y @tifkin_
 * [CheeseTools](https://github.com/klezVirus/CheeseTools) - Self-developed tools for lateral movement/code execution @klezVirus
 * [EDD]( https://github.com/FortyNorthSecurity/EDD) - Enumerate Domain Data is designed to be similar to PowerView but in .NET @FortyNorthSecurity
